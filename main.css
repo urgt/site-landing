@@ -275,6 +275,10 @@ body {
     border-radius: 10px 10px 0px 0px;
 }
 
+.product_img img {
+    width: 300px;
+    height: 245px;
+}
 
 .product_description {
     display: flex;
@@ -340,15 +344,15 @@ body {
     line-height: 152%;
     text-align: center;
     color: #FFFFFF;
-    transition: background 0.2s;
+    transition: all 0.2s;
 }
 
 .see_all:hover {
-    background: linear-gradient(90deg, #f7d65f -0.13%, #F7D65D 52.47%, #f7d65f 99.87%);
+    background: linear-gradient(90deg, #f7d65f -0.13%, #DCBF53 52.47%, #f7d65f 99.87%);
 }
 
 .see_all:active {
     position: relative;
-    top: 4;
+    top: 4px;
     box-shadow: none;
 }
