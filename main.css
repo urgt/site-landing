@@ -356,3 +356,83 @@ body {
     top: 4px;
     box-shadow: none;
 }
+
+.be_bartner {
+    padding: 100px 0;
+}
+
+.be_bartner .container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 8px var(--main-color) solid;
+    border-radius: 5px;
+    padding: 70px 80px;
+    gap: 30px;
+    max-width: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.form_title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 133%;
+    color: var(--title-color);
+}
+
+.form_subtitle {
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: -25px;
+    color: var(--title-color);
+}
+
+.form_tel,
+.form_email {
+    background: var(--card-background);
+    border-radius: 8px;
+    width: 100%;
+    padding: 30px 30px 30px 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #7E868E;
+    position: relative;
+}
+
+.form_tel::before {
+    content: "url(/img/formPhone.svg)";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form_button {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #DCBF53;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    color: #FFFFFF;
+    transition: all 0.2s;
+
+}
+
+.form_button:hover {
+    background-color: #f7d65f;
+}
