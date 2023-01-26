@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />        
     <title>XOZTEX.RU - Оптовые поставки от производителя товаров для дома и дачи</title>
     <script src="script.js"></script>
 </head>
@@ -234,18 +235,106 @@
         </section>
 
         <section class="review" id="review">
-            <div class="container">
-                <h2 class="section_title">
-                    Более 10 крупных партнёров по всей России уже сотрудничают с нами
-                </h2>
-                <div class="video_wrap">
-                    
+                <div class="container">
+                    <h2 class="section_title">
+                        Более 10 крупных партнёров по всей России уже сотрудничают с нами
+                    </h2>
                 </div>
+                
+                <div class="swiper mySwiper">
+                   
+                        <div class="swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="card_left">
+                                    <img src="/img/Цитата.png" alt="Отзыв">
+                                    <p class="review_title">
+                                        «Отличный продукт, надёжный поставщик»
+                                    </p>
+                                    <p class="review_text">
+                                        «Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.
+                                        <br>
+                                        Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»
+                                    </p>
+                                </div>
+                                <div class="card_right">                          
+                                    <img src="/img/review.png" alt="Отзыв" class="author_img">     
+                                    <span class="review_author">Иван Демидов</span> <br>
+                                    <span class="author_from">Краснодар</span>  
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="card_left">
+                                    <img src="/img/Цитата.png" alt="Отзыв">
+                                    <p class="review_title">
+                                        «Отличный продукт, надёжный поставщик»
+                                    </p>
+                                    <p class="review_text">
+                                        «Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.
+                                        <br>
+                                        Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»
+                                    </p>
+                                </div>
+                                <div class="card_right">                          
+                                    <img src="/img/review.png" alt="Отзыв" class="author_img">     
+                                    <span class="review_author">Иван Демидов</span> <br>
+                                    <span class="author_from">Краснодар</span>  
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="card_left">
+                                    <img src="/img/Цитата.png" alt="Отзыв">
+                                    <p class="review_title">
+                                        «Отличный продукт, надёжный поставщик»
+                                    </p>
+                                    <p class="review_text">
+                                        «Вставьте отзыв целиком или часть отзыва клиента. Никогда не выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.
+                                        <br>
+                                        Опишите конечный результат, который получил человек после работы с вами. Что конеретно ему это дало. Можно описывать результат в цифрах, чтобы была конкретика»
+                                    </p>
+                                </div>
+                                <div class="card_right">                          
+                                    <img src="/img/review.png" alt="Отзыв" class="author_img">     
+                                    <span class="review_author">Иван Демидов</span> <br>
+                                    <span class="author_from">Краснодар</span>  
+                                </div>
+                            </div>
+                            
+                        </div>
 
-            </div>
+                        
+                   
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+          
         </section>
         
         
     </div>
+
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 0,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>
