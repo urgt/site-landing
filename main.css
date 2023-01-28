@@ -882,6 +882,10 @@ body {
         font-size: 27px;
     }
 
+    .review {
+        margin-top: 50px;
+    }
+
     .review .section_title {
         line-height: 125%;
     }
