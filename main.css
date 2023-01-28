@@ -957,6 +957,10 @@ body {
         display: none;
     }
 
+    .footer {
+        padding-bottom: 20px;
+    }
+
     .footer_m {
         display: flex;
         padding: 0 15px;
