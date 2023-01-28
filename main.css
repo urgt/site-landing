@@ -700,6 +700,10 @@ body {
 
 }
 
+.footer_m {
+    display: none;
+}
+
 @media screen and (max-width: 1180px) {
     .container {
         margin: 0 20px;
