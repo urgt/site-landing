@@ -715,6 +715,11 @@ body {
         margin: 25px 0;
     }
 
+    .header {
+        height: 0;
+        padding: 15px 0;
+    }
+
     .hero {
         background-position-x: -512px;
     }
